@@ -87,6 +87,30 @@ get_header(); ?>
 		<img class="empr" src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/empr.png">
 	</div>
 </div>
+	<div class="back1 pizz" style="background-image: url(<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/pizarra.png)">
+		<div id="cont4">
+			<div class="rec">
+				<h1 class="titl">Recaudos:</h1>
+				<ul>
+					<li>Fotos y mas fotos</li>
+					<li>Fotos y mas fotos</li>
+					<li>Fotos y mas fotos</li>
+					<li>Fotos y mas fotos</li>
+					<li>Fotos y mas fotos</li>
+				</ul>
+			</div>
+			<div class="test-ph">
+				<ul>
+					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
 
 	</div>
 </div>

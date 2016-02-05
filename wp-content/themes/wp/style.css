@@ -1121,3 +1121,72 @@ img.empr {
 .imgligt img {
     margin-bottom: -7px;
 }
+.pizz{
+	min-height: 885px;
+	background-size: 100% 100%;
+}
+div#cont4 {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0px auto;
+    display: block;
+    padding-top: 60px;
+}
+.rec {
+    color: #fff;
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+}
+.test-ph {
+    width: 50%;
+    float: left;
+}
+.test-ph ul{
+    position: relative;
+}
+.test-ph ul li  {
+    position: absolute;
+}
+.test-ph ul li img {
+    border: 10px solid #fff;
+    box-shadow: 5px 5px 13px rgba(0,0,0, 0.5);
+
+}
+
+.test-ph ul li:nth-child(1){
+ 	transform: rotate(7deg);
+ 	z-index: 5;
+}
+.test-ph ul li:nth-child(2){
+ 	transform: rotate(-7deg);
+ 	z-index: 4;
+    top: 250px;
+}
+.test-ph ul li:nth-child(3){
+ 	transform: rotate(-5deg);
+    z-index: 3;
+    top: 495px;
+}
+.test-ph ul li:nth-child(4){
+ 	transform: rotate(7deg);
+ 	z-index: 2;
+    top: 590px;
+    left: 135px;
+}
+.test-ph ul li:nth-child(5){
+ 	transform: rotate(-10deg);
+ 	z-index: 1;
+    top: 700px;
+}
+.rec ul {
+    margin: 0px;
+    padding: 0px;
+}
+h1.titl {
+    font-size: 69px;
+    margin: 30px 0px;
+}
+.rec ul li{
+    font-size: 24px;
+}
