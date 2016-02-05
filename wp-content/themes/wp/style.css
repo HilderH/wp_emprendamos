@@ -51,10 +51,12 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+
 }
 
 body {
 	margin: 0;
+	margin-top: -32px !important;
 }
 
 article,
@@ -1189,4 +1191,92 @@ h1.titl {
 }
 .rec ul li{
     font-size: 24px;
+}
+.vide-tes {
+    width: 100%;
+    height: auto;
+    margin-bottom: -7px;
+}
+video#video {
+    width: 100%;
+    height: auto;
+}
+footer#colophon {
+    background-color: #3f3f3e;
+    color: #fff;
+}
+.contact {
+    width: 50%;
+    float: left;
+}
+.info-foo {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 300px;
+}
+.contact h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #ecc050;
+}
+.wpcf7-form input[type="text"], .wpcf7-form textarea, .wpcf7-form select{
+	max-width: 363px;
+	width: 100%;
+	border: 2px solid #ecc050;
+	margin-top: 10px;
+}
+form.wpcf7-form {
+    width: 100%;
+    max-width: 363px;
+    margin: 0px auto;
+}
+.wpcf7-form input[type="text"],.wpcf7-form select{
+	height: 50px;
+}
+.wpcf7-form textarea{
+	height: 210px;
+}
+.bac {
+    width: 100%;
+    display: table;
+    max-width: 1300px;
+    margin: 0px auto;
+}
+p.mail {
+    margin-top: 50px;
+    color: #e9b634;
+}
+p.ciudad {
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+p.dir {
+    margin: 0px 0px 10px;
+}
+p.tel {
+    margin: 0px 0px 10px;
+    color: #a1a0a0;
+}
+p.rigt{
+	text-align: center;
+}
+ul.icons {
+    display: block;
+    margin: 50px auto 0px !important;
+}
+input[type="submit"] {
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    background-color: #e9b634 !important;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: none !important;
+    font-size: 20px !important;
+}
+header#masthead{
+	background-color: rgba(116,117,120, 0.9);
+	height: 60px;
 }

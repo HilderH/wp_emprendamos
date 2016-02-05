@@ -37,7 +37,7 @@ get_header(); ?>
 		<h1>Bienveido,</h1>
 		<h2>Conoce nuestros servicios.</h2>
 		<p>Ofrecemos financiamiento y capacitación para el emprendedor popular de la región.</p>
-		<ul>
+		<ul class="icons">
 			<li>
 				<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/car.png">
 				<span class="title">Comercial</span>
@@ -87,32 +87,38 @@ get_header(); ?>
 		<img class="empr" src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/empr.png">
 	</div>
 </div>
-	<div class="back1 pizz" style="background-image: url(<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/pizarra.png)">
-		<div id="cont4">
-			<div class="rec">
-				<h1 class="titl">Recaudos:</h1>
-				<ul>
-					<li>Fotos y mas fotos</li>
-					<li>Fotos y mas fotos</li>
-					<li>Fotos y mas fotos</li>
-					<li>Fotos y mas fotos</li>
-					<li>Fotos y mas fotos</li>
-				</ul>
-			</div>
-			<div class="test-ph">
-				<ul>
-					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
-					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
-					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
-					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
-					<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
-				</ul>
-			</div>
+<div class="back1 pizz" style="background-image: url(<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/pizarra.png)">
+	<div id="cont4">
+		<div class="rec">
+			<h1 class="titl">Recaudos:</h1>
+			<ul>
+				<li>Fotos y mas fotos</li>
+				<li>Fotos y mas fotos</li>
+				<li>Fotos y mas fotos</li>
+				<li>Fotos y mas fotos</li>
+				<li>Fotos y mas fotos</li>
+			</ul>
 		</div>
-
+		<div class="test-ph">
+			<ul>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/test1.png"></li>
+			</ul>
+		</div>
 	</div>
 
-	</div>
+</div>
+<div class="vide-tes">
+
+	<video id="video" autoplay="autoplay" muted="muted" controls="constrols">
+		<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type="video/mp4">
+		<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.webm" type="video/webm">
+		<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.ogv" type="video/ogg">
+	</video>
+</div>
 </div>
 <div style="clear:both;"></div>
 <?php get_footer(); ?>
