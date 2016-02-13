@@ -47,6 +47,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+@font-face {
+    font-family: 'futura';
+    src: url('fonts/futura.otf');
+    src: url('fonts/futura.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'harabara';
+    src: url('fonts/original_Harabara_Mais_Demo.otf');
+    src: url('fonts/original_Harabara_Mais_Demo.ttf') format('truetype');
+}
 html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
@@ -954,23 +964,44 @@ div.slogan{
 	margin-top: 130px;
 }
 div.slogan h1{
-	font-size: 30.5px;
+	font-size: 25.5px;
 	color: #3f3f3e;
-
+	font-family: 'harabara';
 }
 div.slogan p{
-	width: 500px;
+
+	font-family: 'futura';
+	width: 390px;
 	color: #585858;
 	font-size: 23px;
 }
 div.text_area a.boton{
-	margin-top: 30px;
-	font-size: 16px;
-	padding: 20px 5px;
-	text-transform: uppercase;
-	color: #fff;
-	background-color: #588aac;
-	font-weight: 400;
+	font-family: 'futura';
+    position: absolute;
+    font-size: 16px;
+    padding: 20px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #588aac;
+    font-weight: 400;
+    margin-top: 10px;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+header ul {
+    display: table-cell;
+    float: right;
+    margin: 17px 10px 12px 0px;
+}
+header ul li {
+    float: right;
+    padding: 5px;
+}
+div.text_area a.boton:hover{
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	background-color: #396F94;
 }
 div#cont2{
 	width: 100%;
@@ -985,12 +1016,16 @@ div#cont2 h1, div#cont2 h2, div#cont2 p{
 }
 div#cont2 h1{
 	font-size: 59px;
+	font-family: 'harabara';
 }
 div#cont2 h2{
 	font-size: 38px;
+	font-family: 'harabara';
 }
 div#cont2 p{
+	font-family: 'futura';
 	font-size: 24px;
+	color: #7d7d7d;
 }
 div#cont2 ul{
 	padding: 0px;
@@ -1002,11 +1037,14 @@ div#cont2 ul li{
     width: 270px;
     height: 270px;
     float: left;
-    margin: 0px 13%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
 
+}
+ul.icons li{
+	font-family: 'harabara';
+    margin: 0px 78px !important;
 }
 div#cont2 ul li:nth-child(1){
 	margin: 0px;
@@ -1028,6 +1066,7 @@ div#cont2 ul li span{
 	width: 100%;
     display: block;
     text-align: center;
+    font-size: 25px;
 }
 div#cont2 .line{
 	display: block;
@@ -1036,7 +1075,8 @@ div#cont2 .line{
 h2.com{
 	margin-bottom: 60px !important;
 }
-ul.pasos li{
+ul.pasos > li{
+	font-family: 'futura';
 	height: 480px !important;
 	width: 33% !important;
 	border-radius: 0px !important;
@@ -1050,6 +1090,7 @@ ul.pasos li{
 ul.pasos{
 	width: 100%;
 }
+
 div.trian{
 	top: 50.5%;
     left: 100%;
@@ -1077,6 +1118,7 @@ div.num, div.req{
 	text-align: center;
 }
 div.num{
+	font-family: 'harabara';
 	font-size: 160px;
 }
 div.req{
@@ -1099,18 +1141,21 @@ div#cont3{
 .textdown {
     font-size: 45px;
     text-align: right;
+    font-family: 'harabara';
 }
 .textdown span{
     font-size: 57px;
     text-align: right;
 }
 div#cont3 a.boton{
+
+	font-family: 'futura';
 	padding: 10px 20px;
     text-transform: uppercase;
     background-color: #cf622d;
     color: #fff;
     position: absolute;
-    right: 140px;
+    right: 70px;
     margin-top: 45px;
     font-weight: 400;
 }
@@ -1174,7 +1219,7 @@ div#cont4 {
  	transform: rotate(7deg);
  	z-index: 2;
     top: 590px;
-    left: 135px;
+    left: 125px;
 }
 .test-ph ul li:nth-child(5){
  	transform: rotate(-10deg);
@@ -1186,11 +1231,13 @@ div#cont4 {
     padding: 0px;
 }
 h1.titl {
+	font-family: "harabara";
     font-size: 69px;
     margin: 30px 0px;
 }
 .rec ul li{
-    font-size: 24px;
+	font-family: "futura";
+    font-size: 20px;
 }
 .vide-tes {
     width: 100%;
@@ -1204,6 +1251,7 @@ video#video {
 footer#colophon {
     background-color: #3f3f3e;
     color: #fff;
+    font-family: "futura";
 }
 .contact {
     width: 50%;
@@ -1217,8 +1265,9 @@ footer#colophon {
     padding-top: 300px;
 }
 .contact h1 {
+	font-family: "harabara";
     text-align: center;
-    font-size: 38px;
+    font-size: 35px;
     color: #ecc050;
 }
 .wpcf7-form input[type="text"], .wpcf7-form textarea, .wpcf7-form select{
@@ -1267,6 +1316,7 @@ ul.icons {
     margin: 50px auto 0px !important;
 }
 input[type="submit"] {
+	font-family: "futura";
     box-shadow: none !important;
     border-radius: 0px !important;
     background-color: #e9b634 !important;
@@ -1278,5 +1328,4 @@ input[type="submit"] {
 }
 header#masthead{
 	background-color: rgba(116,117,120, 0.9);
-	height: 60px;
 }

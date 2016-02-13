@@ -15,16 +15,16 @@
  */
 
 get_header(); ?>
-<div class="back1">
-	<div id="cont_1" style="background-image: url(<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/back1.png)">
+<div class="back1" style="background-image: url(<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/back1.png)">
+	<div id="cont_1" >
 		<div class="text_area">
 			<div class="logo">
 				<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/logo.png">
 			</div>
 			<div class="slogan">
-				<h1>Emprendedores al servicio de emprendedores!</h1>
-				<p>Somos la Institución Microfinanciera
-				de la región para ayudarte
+				<h1>¡Emprendedores al servicio de emprendedores!</h1>
+				<p>Somos la Institución microfinanciera
+				de la región, ¡para ayudarte
 				a seguir creciendo!</p>
 			</div>
 			<a class="boton">conoce nuestros servicios</a>
@@ -34,7 +34,7 @@ get_header(); ?>
 </div>
 <div class="back1">
 	<div id="cont2">
-		<h1>Bienveido,</h1>
+		<h1>Bienvenido,</h1>
 		<h2>Conoce nuestros servicios.</h2>
 		<p>Ofrecemos financiamiento y capacitación para el emprendedor popular de la región.</p>
 		<ul class="icons">
@@ -53,7 +53,7 @@ get_header(); ?>
 
 		</ul>
 		<img class="line" src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/line.png">
-		<h1 class="com_">como funciona</h1>
+		<h1 class="com_">¿Cómo funciona?</h1>
 		<h2 class="com">tres pasos muy sencillos.</h2>
 		<ul class="pasos">
 			<li>
@@ -65,13 +65,13 @@ get_header(); ?>
 			<li>
 				<div class="trian"></div>
 				<div class="trian2"></div>
-				<div class="num">1</div>
-				<div class="req">Contáctanos</div>
+				<div class="num">2</div>
+				<div class="req">Entrega tus recaudos</div>
 			</li>
 			<li>
 
-				<div class="num">1</div>
-				<div class="req">Contáctanos</div>
+				<div class="num">3</div>
+				<div class="req">Recibe tu crédito</div>
 			</li>
 
 		</ul>

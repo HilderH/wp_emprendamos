@@ -30,8 +30,10 @@
 	<header id="masthead" class="site-header" role="banner" style="background: transparent url(<?php echo $background['url'] ?>) no-repeat scroll center center;">
 	<?php }else { ?>
 	<header id="masthead" class="site-header" role="banner">
+
 	<?php } ?>
 		<div class="site-branding">
+
 			<!--<?php if ( is_front_page() && is_home() ) : ?>-->
 
 				<?php $logo_pos = ( function_exists( 'fw_get_db_settings_option' ) ) ? fw_get_db_settings_option('tf_logo_position') : ''; ?>
@@ -65,6 +67,12 @@
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'tarful' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav> #site-navigation -->
+			<ul>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/redes_instagram.png"></li>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/redes_facebook.png"></li>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/redes_twitter.png"></li>
+				<li><img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/redes_sky.png"></li>
+			</ul>
 	</header><!-- #masthead -->
 	<?php tarful_after_header(); ?>
 

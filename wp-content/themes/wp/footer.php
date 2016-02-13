@@ -17,7 +17,7 @@
 		<div class="site-info">
 			<div class="bac">
 				<div class="contact">
-					<h1>Te interesa? Contáctanos</h1>
+					<h1>¿Te interesa? Contáctanos</h1>
 					<?php echo do_shortcode('[contact-form-7 id="9" title="Contact form 1"]')?>
 					<p class="rigt">© 2016 Emprendamos. Todos los derechos reservados</p>
 				</div>
