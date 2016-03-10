@@ -22,10 +22,8 @@ get_header(); ?>
 				<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/logo.png">
 			</div>
 			<div class="slogan">
-				<h1>¡Emprendedores al servicio de emprendedores!</h1>
-				<p>Somos la Institución microfinanciera
-				de la región, ¡para ayudarte
-				a seguir creciendo!</p>
+				<h1><?php echo CFS()->get('frase_principal'); ?></h1>
+				<p><?php echo CFS()->get('parrafo_principal'); ?></p>
 			</div>
 			<a class="boton">conoce nuestros servicios</a>
 		</div>
@@ -115,8 +113,8 @@ get_header(); ?>
 
 	<video id="video" autoplay="autoplay" muted="muted" controls="constrols">
 		<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.mp4" type="video/mp4">
-		<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.webm" type="video/webm">
-		<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.ogv" type="video/ogg">
+		<!--<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.webm" type="video/webm">-->
+		<!--<source src="http://www.quirksmode.org/html5/videos/big_buck_bunny.ogv" type="video/ogg">-->
 	</video>
 </div>
 </div>
