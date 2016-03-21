@@ -1235,9 +1235,10 @@ h1.titl {
     font-size: 69px;
     margin: 30px 0px;
 }
-.rec ul li{
-	font-family: "futura";
+.rec ul li {
+    font-family: "futura";
     font-size: 20px;
+    margin-bottom: 15px;
 }
 .vide-tes {
     width: 100%;

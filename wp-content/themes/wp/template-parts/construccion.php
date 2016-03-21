@@ -22,8 +22,8 @@ get_header(); ?>
 				<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/logo.png">
 			</div>
 			<div class="slogan">
-				<h1><?php echo CFS()->get('frase_principal'); ?></h1>
-				<p><?php echo CFS()->get('parrafo_principal'); ?></p>
+				<h1><?php echo CFS()->get('frase_principal');?></h1>
+				<p><?php echo CFS()->get('parrafo_principal');?></p>
 			</div>
 			<a class="boton">conoce nuestros servicios</a>
 		</div>
@@ -34,19 +34,19 @@ get_header(); ?>
 	<div id="cont2">
 		<h1>Bienvenido,</h1>
 		<h2>Conoce nuestros servicios.</h2>
-		<p>Ofrecemos financiamiento y capacitación para el emprendedor popular de la región.</p>
+		<p><?php echo CFS()->get('frase_secundaria');?></p>
 		<ul class="icons">
 			<li>
-				<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/car.png">
-				<span class="title">Comercial</span>
+				<img src="<?php echo CFS()->get('icono_1');?>">
+				<span class="title"><?php echo CFS()->get('texto_icono_1');?></span>
 			</li>
 			<li>
-				<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/car.png">
-				<span class="title">Comercial</span>
+				<img src="<?php echo CFS()->get('Icono_2');?>">
+				<span class="title"><?php echo CFS()->get('texto_icono_2');?></span>
 			</li>
 			<li>
-				<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/car.png">
-				<span class="title">Comercial</span>
+				<img src="<?php echo CFS()->get('icono_3');?>">
+				<span class="title"><?php echo CFS()->get('texto_icono_3');?></span>
 			</li>
 
 		</ul>
@@ -80,8 +80,8 @@ get_header(); ?>
 		<div class="imgligt">
 			<img src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/ligth.png">
 		</div>
-		<div class="textdown">Si estás buscando opciones para expandir las bases de tu negocio <span>¡Contáctanos!</span></div>
-		<a class="boton" href="">descarga tu planilla</a>
+		<div class="textdown"><?php echo CFS()->get('parrafo_2');?></div>
+		<a class="boton" href="<?php echo CFS()->get('planilla');?>" download>descarga tu planilla</a>
 		<img class="empr" src="<?php bloginfo( 'url' ); ?>/wp-content/themes/wp/images/empr.png">
 	</div>
 </div>
@@ -90,11 +90,16 @@ get_header(); ?>
 		<div class="rec">
 			<h1 class="titl">Recaudos:</h1>
 			<ul>
-				<li>Fotos y mas fotos</li>
-				<li>Fotos y mas fotos</li>
-				<li>Fotos y mas fotos</li>
-				<li>Fotos y mas fotos</li>
-				<li>Fotos y mas fotos</li>
+				<?php
+					$fields = CFS()->get( 'recaudos' );
+					foreach ( $fields as $field ) {
+					   ?>
+					   <li><?php echo $field['nuevo_recaudo']; ?></li>
+					   <?php
+					}
+				?>
+
+
 			</ul>
 		</div>
 		<div class="test-ph">
